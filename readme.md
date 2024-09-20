@@ -3,7 +3,7 @@
 ## Generelle Oplysninger
 - **Hjemmesidens Navn:** FitBrand
 - **Formål:** At promovere fitnesscoaching og en sund livsstil.
-- **Målgruppe:** Fitnessentusiaster og personer, der ønsker at tabe sig.
+- **Målgruppe:** personer, der ønsker at tabe sig.
 
 ## Design
 - **Farveskema:**
@@ -23,13 +23,13 @@
 - **Footer:** Copyright-information og links til sociale medier.
 
 ## Indhold
-- **Header Tekst:** "Elevate Your Fitness Journey"
-- **Call-to-action:** "Get Started"
+- **Header Tekst:** "Forbedr Din Fitnessrejse"
+- **Call-to-action:** "kom i gang"
 - **Service Titler og Beskrivelser:**
   1. **Personlig Træning:** "Skræddersyet træning."
   2. **Ernæringsrådgivning:** "Tilpassede kostplaner."
   3. **Gruppetimer:** "Træn sammen i fællesskab."
 
 ## Test og Lancering
-- **Test:** Funktionalitet og responsivitet.
+- **Test:** Funktionalitet.
 - **Lancering:** Forventes om 4 uger.
