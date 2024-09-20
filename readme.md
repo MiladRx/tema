@@ -3,7 +3,7 @@
 ## Generelle Oplysninger
 - **Hjemmesidens Navn:** FitBrand
 - **Formål:** At promovere fitnesscoaching og en sund livsstil.
-- **Målgruppe:** Fitnessentusiaster og personer, der ønsker at tabe sig.
+- **Målgruppe:** personer, der ønsker at tabe sig.
 
 ## Design
 - **Farveskema:**
