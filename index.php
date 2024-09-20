@@ -1,7 +1,7 @@
 <?php get_header(); ?> <!-- Henter header-sektionen af temaet -->
 
 <div class="header">
-    <h1><?php echo get_theme_mod('header_text'); ?></h1> <!-- Viser header-tekst fra Customizer -->
+<h1>Forbedr Din Fitnessrejse</h1>
     <a href="#services" class="btn"><?php echo get_theme_mod('button_text'); ?></a> <!-- Viser knaptekst fra Customizer og linker til services-sektionen -->
 </div>
 
@@ -15,6 +15,13 @@
         </div>
         <?php endfor; ?> <!-- Afslutter loopen -->
     </div>
+</div>
+
+<div class="section" id="testimonials">
+    <h2>Udtalelser</h2>
+    <blockquote>
+        <p><?php echo get_theme_mod('testimonial', '"FitBrand forvandlede mit liv!" - Glad Kunde'); ?></p>
+    </blockquote>
 </div>
 
 <div class="footer">

@@ -8,16 +8,7 @@ add_action('wp_enqueue_scripts', 'fitbrand_enqueue_styles'); // Aktiverer stilen
 
 // Registrer indstillinger til Customizer
 function fitbrand_customize_register($wp_customize) {
-    // Header Tekst
-    $wp_customize->add_setting('header_text', array(
-        'default' => 'Forbedr Din Fitnessrejse', // Standardtekst for headeren
-    ));
-    $wp_customize->add_control('header_text', array(
-        'label' => __('Header Text', 'fitbrand'), // Etiket i Customizer
-        'section' => 'title_tagline', // Sektion i Customizer
-        'type' => 'text', // Kontroltype (tekstfelt)
-    ));
-
+  
     // Knap Tekst
     $wp_customize->add_setting('button_text', array(
         'default' => 'Kom i gang', // Standardtekst for knappen
@@ -33,7 +24,7 @@ function fitbrand_customize_register($wp_customize) {
     $wp_customize->add_setting('services_title', array(
         'default' => 'Vores Tjenester', // Standardtitel for tjenester
         'transport' => 'refresh', // Opdateringstype
-    )); 
+    ));
     $wp_customize->add_control('services_title', array(
         'label' => __('Services Title', 'fitbrand'), // Etiket i Customizer
         'section' => 'title_tagline', // Sektion i Customizer
@@ -63,6 +54,18 @@ function fitbrand_customize_register($wp_customize) {
             'section' => 'title_tagline', // Sektion i Customizer
             'type' => 'textarea', // Kontroltype (tekstområde)
         ));
+
+        // Udtalelser
+    $wp_customize->add_setting('testimonial', array(
+        'default' => '"FitBrand forvandlede mit liv!" - Glad Kunde', // Standardudtalelse
+        'transport' => 'refresh', // Opdateringstype
+    ));
+    $wp_customize->add_control('testimonial', array(
+        'label' => __('Testimonial', 'fitbrand'), // Etiket i Customizer
+        'section' => 'title_tagline', // Sektion i Customizer
+        'type' => 'textarea', // Kontroltype (tekstområde)
+    ));
+    
     }
 
     
